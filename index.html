@@ -13,21 +13,81 @@
 
 <body>
     <header class="header--dark">
-        <span>
-            <h3 class="header__title">Admin Page</h3>
-        </span>
+
+        <h3 class="header__title">Admin Page</h3>
+
+        <div class="header__search">
+            <input class="search__input" type="text">
+            <button class="search__btn fa fa-search"></button>
+        </div>
     </header>
-    <div header__search>
-        <input class="search__input" type="text">
-        <button class="search__btn"></button>
+    <main>
+        <div class="row">
+            <aside class="aside">
 
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>CORE</li>
+                        <li class="fa fa-tachometer">Dashboard</li>
+                        <li>INTERFACE</li>
+                        <li>
+                            <a class="fa fa-windows">Layouts</a>
+                        </li>
+                        <li class="fa fa-bookmark">Pages
+                        </li>
+                        <li>ADDONS</li>
+                        <li class="fa fa-area-chart">Charts</li><br>
+                        <li class="fa fa-table">Tables</li>
+                    </ul>
 
-    </div>
+                </nav>
 
+                <!--             
+                <nav class="main__nav ">
+                <ul class="nav__ul">
+                    <li class="nav__li ">
+                        <a style="display: flex; align-items: center;" href="#">
+                            <i class="fa fa-home fa-2x icon-white"></i>
+                            <p style="margin-left: 12px;">Home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="nav-link" style="display: flex; align-items: center;">
+                            <i class="fa fa-windows fa-2x icon-white"></i>
+                            <p style="margin-left: 12px;">Layouts</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav> -->
 
+            </aside>
+            <section class="content">
+                <h1>Dashboard</h1>
+                <div class="main__breadcrumb">
+                    Dashboard
+                </div>
+                <div class="main__cards">
+                    <div>
+                        <div class="main__card--blue card__top">Primary card</div>
+                        <div class="main__card--blue card__bottom">View details ></div>
+                    </div>
+                    <div>
+                        <div class="main__card--yellow card__top">Warning card</div>
+                        <div class="main__card--yellow card__bottom">View details ></div>
+                    </div>
+                    <div>
+                        <div class="main__card--green card__top">Success card</div>
+                        <div class="main__card--green card__bottom">View details ></div>
+                    </div>
+                    <div>
+                        <div class="main__card--red card__top">Danger card</div>
+                        <div class="main__card--red card__bottom">View details ></div>
+                    </div>
+                </div>
+            </section>
 
-
-
+        </div>
+    </main>
 
 </body>
 
